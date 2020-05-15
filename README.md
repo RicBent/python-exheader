@@ -5,7 +5,7 @@ Not all settings are supported (those will throw an exception on load) or easily
 
 ## Installation
 
-Run the following to install::
+Run the following to install:
 
 ```python
 pip install exheader
@@ -18,7 +18,7 @@ from exheader import Exheader
 
 exh = Exheader()
 
-# Load exheader from
+# Load exheader from file
 f_in = open('exheader.bin', 'rb')
 exh.unpack_from(f_in.read())
 f_in.close()

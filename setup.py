@@ -8,12 +8,12 @@ setup(
     version='0.0.1',
     description='Library for handling 3ds exheader files',
     long_description=long_description,
-    long_description_content_type='test/markdown',
+    long_description_content_type='text/markdown',
     py_modules=['exheader'],
     package_dir={'': 'src'},
     classifiers=[
         'Programming Language :: Python :: 3',
-        "License :: OSU Approved :: MIT License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
 )
